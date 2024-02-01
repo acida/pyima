@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8
 
-import codec
+from . import codec
 
 decode_block = codec.decode_block
 encode_block = codec.encode_block
